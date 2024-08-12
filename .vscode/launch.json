@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open HTML, CSS, or JS file",
+            "file": "${file}",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+           "type": "chrome",
+            "request": "launch",
+            "name": "Listen for PHP Debug",
+            "port": 9003,
+            
+        }
+    ]
+}
